@@ -68,3 +68,64 @@
   color: red !important;
   border-color: red !important;
 }
+.block {
+  max-width: 700px;
+  margin: 10px 0 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+.block p,
+.block h2 {
+  margin: 0;
+  flex-shrink: 1;
+}
+.block__subtitle {
+  font-size: x-large;
+}
+.block__button {
+  border: none;
+  background-color: #07237e;
+  color: whitesmoke;
+  padding: 10px 20px;
+  width: 63px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.block__button:hover {
+  background-color: #0a32b8;
+}
+.block__edit-btns {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  flex-grow: 1;
+  gap: 10px;
+}
+.block__button--delete {
+  border: none;
+  background-color: #07237e;
+  color: whitesmoke;
+  padding: 10px 20px;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: pink;
+  color: darkred;
+  border: 1px solid darkred;
+}
+.block__button--delete:hover {
+  color: red;
+  border-color: red;
+}
+.block__code {
+  min-width: calc(100% - (63px + 10px));
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+.block__code pre {
+  margin: 0 !important;
+}
+/*# sourceMappingURL=Block.css.map */
