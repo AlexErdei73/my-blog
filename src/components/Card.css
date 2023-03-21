@@ -1,0 +1,128 @@
+.App {
+  color: black;
+  overflow-x: hidden;
+}
+.button-hover {
+  background-color: #0a32b8;
+}
+.button-delete-hover {
+  color: red;
+  border-color: red;
+}
+.input {
+  border-color: #07237e;
+  border-radius: 5px;
+  height: 1.6rem;
+  outline: none;
+}
+.button {
+  border: none;
+  background-color: #07237e;
+  color: whitesmoke;
+  padding: 10px 20px;
+  width: fit-content;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: #0a32b8;
+}
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 10px;
+  align-items: center;
+}
+.modal-body__button-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  justify-content: space-around;
+}
+.modal-body__button {
+  border: none;
+  background-color: #07237e;
+  color: whitesmoke;
+  padding: 10px 20px;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.modal-body__button:hover {
+  background-color: #0a32b8;
+}
+.modal-body__button--delete {
+  border: none !important;
+  background-color: #07237e !important;
+  color: whitesmoke !important;
+  padding: 10px 20px !important;
+  width: fit-content !important;
+  border-radius: 5px !important;
+  padding: 5px 10px !important;
+  background-color: pink !important;
+  color: darkred !important;
+  border: 1px solid darkred !important;
+}
+.modal-body__button--delete:hover {
+  color: red !important;
+  border-color: red !important;
+}
+.card {
+  width: 350px;
+  height: 200px;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card__header {
+  background-color: #07237e;
+  color: whitesmoke;
+  border-radius: 10px 10px 0 0;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  justify-content: space-between;
+}
+.card__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #6b6b6b;
+  color: skyblue;
+  border-radius: 0 0 10px 10px;
+  padding: 5px;
+}
+.card__header-text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
+}
+.card:hover .card__header {
+  background-color: #0a32b8;
+}
+.card:hover .card__footer {
+  color: whitesmoke;
+}
+.card:hover .danger {
+  background-color: red !important;
+}
+.card:hover .footer-danger {
+  color: red !important;
+  border-color: red !important;
+}
+.danger {
+  background-color: darkred !important;
+}
+.footer-danger {
+  background-color: pink !important;
+  color: darkred !important;
+  border: 1px solid darkred;
+}
+/*# sourceMappingURL=Card.css.map */
