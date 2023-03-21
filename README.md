@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# my-blog
+
+This is a second React front-end for my [blog-api](https://github.com/AlexErdei73/blog-api). This only 
+fetches my blog post (Arrow functions in JavaScript) and shows it like a static page. With this app the
+original [blog api](https://www.theodinproject.com/lessons/nodejs-blog-api) plan becomes full and I can
+link the deployed site to my [landing-page](https://alexerdei73.github.io/landing-page). This way my 
+visitors can read my blog from the navigation menu with one click.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
