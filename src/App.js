@@ -49,6 +49,7 @@ function App() {
 
   return (
     <div className="App">
+      <div className="col"></div>
       <Post
         post={post}
         submit={() => {}}
